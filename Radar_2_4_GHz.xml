@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Newton\Desktop\Guilherme Reis\Radar_2_4_GHz\Radar_2_4_GHz\Radar_2_4_GHz.kicad_sch</source>
+    <date>16/04/2023 20:34:26</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Circuitos Integrados</title>
+        <company>Laboratório de MicroEletrônica</company>
+        <rev>0v1</rev>
+        <date>2023-04-16</date>
+        <source>Radar_2_4_GHz.kicad_sch</source>
+        <comment number="1" value="Necessário fazer um double check nos foot prints"/>
+        <comment number="2" value="Necessário fazer um double check nos esquemáticos de cada CI"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>426b6d70-5318-48b1-a5da-7903c987ca6c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a98fcddc-e5d1-457a-86a8-ec1b41c1d9ec</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2,pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47639475-ec6f-45a8-82a7-e5803212bb4a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba371082-bb12-4331-b826-37def2ae4229</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f67c658-a74e-4dd7-b042-3dd22a625ed8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c5ca489-3ea0-4075-9c7c-249ba0b2561b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>39pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fee1533-8e61-4826-8dc8-323ebece8ef4</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3ba4505-4bcd-4775-9f9d-d78185705034</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6c7775a-4f43-47db-9e6b-70098d623bbd</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>15pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44863bef-c2a5-425f-8f30-aafc2a3bd1f6</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>2,7pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d38de05-b1e2-4f0c-876c-7b997c9fd321</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0,01uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcf2d5c2-b3cb-43c9-9716-e1627fbded42</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1345dacb-988f-453b-b0d8-256f39cf0bb1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2708c6e-2488-4a15-b8e9-f499c27e4c9d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>842af98e-0b77-427f-8ac7-ef1bd32d1aad</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0,01uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d694428f-fe7c-4be3-abce-157f553b3737</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0,01uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd876d18-cad3-4b6c-a3fc-165c05510316</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e14e7311-05af-41ad-abca-84919ff29ffd</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6876b9e9-c8fa-4062-aafa-d837ea7b665d</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0,01uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82cbaad1-75bf-49dc-b640-390154efbe5c</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>8,2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>074294c9-45d2-45fb-a8c6-2b335229e475</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e28bf51-89cb-4e46-9eb3-71a8c53ae1b9</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>5,1nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ed39a25-d66f-4b79-ac92-326ea84a7c54</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>3,3nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3da6713f-c8e3-4ddd-811c-6216ced64ba1</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>12nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41627244-b6dc-4509-94d7-753766562a8c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bab31a59-b47e-4021-ace6-fd88014fb293</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06c1b2fa-bf26-45d8-864f-40776f13e1af</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2KR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64a2d900-9641-4762-b92f-8a33ccee9970</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7306fa-65ed-4436-b413-d561ec379e26</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>698R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e285a01a-4d21-40de-bf2b-1f01d91d9692</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX2750EUA+</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/609/MAX2750_MAX2752-3127828.pdf</datasheet>
+      <libsource lib="radar_2_4_GHz" part="MAX2750EUA+" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42a55e2d-db77-4cf8-a5c7-4b31ea811750</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SKY67106-306LF</value>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/472/SKYSS01995_1-2514933.pdf</datasheet>
+      <libsource lib="radar_2_4_GHz" part="SKY67106-306LF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e261bcd-caa1-4674-a766-0c54572e8754</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MAX2024ETP+</value>
+      <footprint>Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.1x3.1mm</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/609/MAX2042A-3128322.pdf</datasheet>
+      <libsource lib="radar_2_4_GHz" part="MAX2024ETP+" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74013fd6-a0a3-4bd6-8158-b41c1c93921d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SE2609L</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/472/SKYSS03354_1-2515049.pdf</datasheet>
+      <libsource lib="radar_2_4_GHz" part="SE2609L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Radar_2_4_GHz.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1ce9620-d02f-455b-9072-6973c8324773</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radar_2_4_GHz" part="MAX2024ETP+">
+      <docs>https://br.mouser.com/datasheet/2/609/MAX2042A-3128322.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX2024ETP+</field>
+        <field name="Footprint">Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.1x3.1mm</field>
+        <field name="Datasheet">https://br.mouser.com/datasheet/2/609/MAX2042A-3128322.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="RF" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="LOBIAS" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="LO" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="VCC" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="IF-" type="passive"/>
+        <pin num="19" name="IF+" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radar_2_4_GHz" part="MAX2750EUA+">
+      <docs>https://br.mouser.com/datasheet/2/609/MAX2750_MAX2752-3127828.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX2750EUA+</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet">https://br.mouser.com/datasheet/2/609/MAX2750_MAX2752-3127828.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BYP" type="passive"/>
+        <pin num="2" name="TUNE" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="NOT-SHDN" type="passive"/>
+        <pin num="5" name="VCC1" type="passive"/>
+        <pin num="6" name="VCC2" type="passive"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radar_2_4_GHz" part="SE2609L">
+      <docs>https://www.mouser.com/datasheet/2/472/SKYSS03354_1-2515049.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SE2609L</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/472/SKYSS03354_1-2515049.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF" type="passive"/>
+        <pin num="2" name="DET" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="RF_IN" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="RF_OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="radar_2_4_GHz" part="SKY67106-306LF">
+      <docs>https://www.mouser.com/datasheet/2/472/SKYSS01995_1-2514933.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SKY67106-306LF</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/472/SKYSS01995_1-2514933.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N/C" type="passive"/>
+        <pin num="2" name="N/C" type="passive"/>
+        <pin num="3" name="RF_IN1" type="passive"/>
+        <pin num="4" name="RF_GND" type="passive"/>
+        <pin num="5" name="VBIAS" type="passive"/>
+        <pin num="6" name="FB" type="passive"/>
+        <pin num="7" name="RF_OUT1" type="passive"/>
+        <pin num="8" name="RF_IN2" type="passive"/>
+        <pin num="9" name="N/C" type="passive"/>
+        <pin num="10" name="RF_OUT2" type="passive"/>
+        <pin num="11" name="RF_OUT2" type="passive"/>
+        <pin num="12" name="N/C" type="passive"/>
+        <pin num="13" name="N/C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="radar_2_4_GHz">
+      <uri>C:\Users\Newton\Documents\KiCad\7.0\symbols\radar_2_4_GHz.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+2V85">
+      <node ref="U4" pin="1" pinfunction="VREF" pintype="passive"/>
+    </net>
+    <net code="2" name="+3V0">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VCC2" pintype="passive"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VCC" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="5" name="DET">
+      <node ref="U4" pin="2" pinfunction="DET" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="L4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="7" name="IF+">
+      <node ref="U3" pin="19" pinfunction="IF+" pintype="passive"/>
+    </net>
+    <net code="8" name="IF-">
+      <node ref="U3" pin="18" pinfunction="IF-" pintype="passive"/>
+    </net>
+    <net code="9" name="LO">
+      <node ref="C13" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="NOT SHDN">
+      <node ref="U1" pin="4" pinfunction="NOT-SHDN" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="RF_OUT2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="RF_OUT2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U1-BYP)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BYP" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U2-FB)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U2-RF_GND)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="RF_GND" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(U2-RF_IN1)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="RF_IN1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U2-RF_IN2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="RF_IN2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(U2-RF_OUT1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="RF_OUT1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(U2-VBIAS)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VBIAS" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(U3-LO)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="LO" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(U3-LOBIAS)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="LOBIAS" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(U3-RF)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="RF" pintype="passive"/>
+    </net>
+    <net code="27" name="OUT">
+      <node ref="U1" pin="7" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="28" name="RF">
+      <node ref="C21" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="RF IN">
+      <node ref="U4" pin="4" pinfunction="RF_IN" pintype="passive"/>
+    </net>
+    <net code="30" name="RF INPUT">
+      <node ref="C6" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="RF OUT">
+      <node ref="U4" pin="8" pinfunction="RF_OUT" pintype="passive"/>
+    </net>
+    <net code="32" name="RF OUTPUT">
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="TUNE">
+      <node ref="U1" pin="2" pinfunction="TUNE" pintype="passive"/>
+    </net>
+    <net code="34" name="VDD1">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="VDD2">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(U2-N{slash}C-Pad1)">
+      <node ref="U2" pin="1" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-N{slash}C-Pad2)">
+      <node ref="U2" pin="2" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-N{slash}C-Pad9)">
+      <node ref="U2" pin="9" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U2-N{slash}C-Pad12)">
+      <node ref="U2" pin="12" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U2-N{slash}C-Pad13)">
+      <node ref="U2" pin="13" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U2-N{slash}C-Pad13)_1">
+      <node ref="U2" pin="13" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U2-N{slash}C-Pad13)_2">
+      <node ref="U2" pin="13" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-N{slash}C-Pad13)_3">
+      <node ref="U2" pin="13" pinfunction="N/C" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
